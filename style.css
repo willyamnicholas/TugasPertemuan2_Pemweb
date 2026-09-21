@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5F7FA;
+    font-family: Arial, sans-serif;
+}
+
+
+header{
+    background-color: #2563EB;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #1E293B;
+    margin-bottom: 0px;
+}
+
+nav{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 20px;
+}
+
+nav a{
+    color: rgb(236, 226, 226);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#Home{
+    text-align: center;
+}
+
+#Home img{
+    margin-top: 10px;
+}
+
+#About p{
+    line-height: 1.6;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    background-color: #BFDBFE;
+    padding: 12px 35px;
+    border-radius: 10px;
+}
+
+#Projects img{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+
+#Contact{
+    height: auto;  
+     background-color: #CBD5E1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        width: 95%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+}
